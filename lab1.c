@@ -88,6 +88,7 @@ void Insert()
 }
 
 
+
 void Del()
 {
 	printf("\nEnter the position of the element to be deleted: ");
