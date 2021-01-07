@@ -32,7 +32,7 @@ void stringmatch()
 }
 
 // main function
-int main()
+main()
 {
     printf("\nEnter a main string: ");
     gets(str);
