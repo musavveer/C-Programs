@@ -132,13 +132,18 @@ void palindrome(int st[])
     for (i=0; i<temp; i++)
     {
         if (st[i]==pop(st))
+        {    
         count++;
+        }    
     }
-        if (temp==count)
+    if (temp==count)
+    {    
         printf("\nStack contents are Palindrome");
+    }   
         
-        else
-        printf("\nStack contents are not Palindrome");
-    
+    else
+    {   
+    printf("\nStack contents are not Palindrome");
+    }
 }
 
